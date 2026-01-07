@@ -5,6 +5,7 @@
             "label": "Nombre:",
             "type": "text",
             "name": "name",
+            "placeholder": "Ej: Jhon",
             "errores": {
                 "required": "El campo Nombre es obligatorio."
             }
@@ -13,6 +14,7 @@
             "label": "Apellido:",
             "type": "text",
             "name": "lastname",
+            "placeholder": "Ej: Doe",
             "errores": {
                 "required": "El campo Apellido es obligatorio."
             }
@@ -21,6 +23,7 @@
             "label": "Nombre de usuario:",
             "type": "text",
             "name": "username",
+            "placeholder": "Nombre de usuario",
             "errores": {
                 "required": "El campo Nombre de Usuario es obligatorio."
             }
@@ -29,6 +32,7 @@
             "label": "Contraseña:",
             "type": "password",
             "name": "password",
+            "placeholder": "Ingrese una contraseña",
             "errores": {
                 "required": "La contraseña es obligatoria.",
                 "minlength": "La contraseña debe tener al menos 8 caracteres."
@@ -38,6 +42,7 @@
             "label": "Confirmar contraseña:",
             "type": "password",
             "name": "confirmPassword",
+            "placeholder": "Confirme su contraseña",
             "errores": {
                 "required": "Debe confirmar su contraseña.",
                 "mismatch": "Las contraseñas no coinciden."

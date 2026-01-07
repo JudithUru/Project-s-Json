@@ -5,6 +5,7 @@
             "label": "Nombre de usuario:",
             "type": "text",
             "name": "username",
+            "placeholder": "Nombre de Usuario",
             "errores": {
                 "required": "El campo Nombre de Usuario es obligatorio."
             }
@@ -13,6 +14,7 @@
             "label": "Contraseña:",
             "type": "password",
             "name": "password",
+            "placeholder": "********",
             "errores": {
                 "required": "La contraseña es obligatoria.",
                 "minlength": "La contraseña debe tener al menos 8 caracteres."
