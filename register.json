@@ -1,0 +1,48 @@
+{
+    "titulo": "Registro",
+    "campos": [
+        {
+            "label": "Nombre:",
+            "type": "text",
+            "name": "name",
+            "errores": {
+                "required": "El campo Nombre es obligatorio."
+            }
+        },
+        {
+            "label": "Apellido:",
+            "type": "text",
+            "name": "lastname",
+            "errores": {
+                "required": "El campo Apellido es obligatorio."
+            }
+        },
+        {
+            "label": "Nombre de usuario:",
+            "type": "text",
+            "name": "username",
+            "errores": {
+                "required": "El campo Nombre de Usuario es obligatorio."
+            }
+        },
+        {
+            "label": "Contraseña:",
+            "type": "password",
+            "name": "password",
+            "errores": {
+                "required": "La contraseña es obligatoria.",
+                "minlength": "La contraseña debe tener al menos 8 caracteres."
+            }
+        },
+        {
+            "label": "Confirmar contraseña:",
+            "type": "password",
+            "name": "confirmPassword",
+            "errores": {
+                "required": "Debe confirmar su contraseña.",
+                "mismatch": "Las contraseñas no coinciden."
+            }
+        }
+    ],
+    "boton": "Guardar"
+}
