@@ -16,8 +16,7 @@
             "name": "password",
             "placeholder": "********",
             "errores": {
-                "required": "La contraseña es obligatoria.",
-                "minlength": "La contraseña debe tener al menos 8 caracteres."
+                "required": "La contraseña es obligatoria."
             }
         }
     ],
