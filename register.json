@@ -13,7 +13,7 @@
         {
             "label": "Apellido:",
             "type": "text",
-            "name": "lastname",
+            "name": "last_name",
             "placeholder": "Ej: Doe",
             "errores": {
                 "required": "El campo Apellido es obligatorio."
